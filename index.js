@@ -3,6 +3,6 @@ const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 // Code your solution here
 
 
-const totalBatteries = batteryBatches.reduce((total, batches)=>{
-    return total + batches ;
+const totalBatteries = batteryBatches.reduce((acc, curr)=>{
+    return acc + curr ;
        }, 0);
